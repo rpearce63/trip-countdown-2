@@ -34,7 +34,15 @@ class TripListVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Row Selected")
+        let trip = DataService.instance.getTrips()[indexPath.row]
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "DetailVC", sender: trip)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let detailVC = segue.destination as? DetailVC {
+            detailVC.initTripDetail(trip: sender as! Trip)
+        }
     }
     
 

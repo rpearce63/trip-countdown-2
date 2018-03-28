@@ -20,7 +20,7 @@
         <!--Your Trips-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TripListVC" customModule="master_detail_simple" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TripListVC" customModule="trip_countdown_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,7 +32,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TripCell" rowHeight="110" id="i5m-28-J4w" customClass="TripCell" customModule="master_detail_simple" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TripCell" rowHeight="110" id="i5m-28-J4w" customClass="TripCell" customModule="trip_countdown_2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i5m-28-J4w" id="7jd-1j-SeH">
@@ -46,10 +46,10 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="CHi-Zl-Yic">
                                                     <rect key="frame" x="15" y="11" width="249" height="88"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="93r-Ym-MQ8" customClass="EdgeInsetLabel" customModule="master_detail_simple" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="93r-Ym-MQ8" customClass="EdgeInsetLabel" customModule="trip_countdown_2" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="249" height="61.5"/>
                                                             <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="0.70007491438356162" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="24"/>
                                                             <nil key="highlightedColor"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="leftTextInset">
@@ -60,7 +60,7 @@
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6p-hM-kvo" customClass="EdgeInsetLabel" customModule="master_detail_simple" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6p-hM-kvo" customClass="EdgeInsetLabel" customModule="trip_countdown_2" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="64.5" width="249" height="23.5"/>
                                                             <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="0.70007491440000003" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
@@ -80,7 +80,7 @@
                                                         </label>
                                                     </subviews>
                                                 </stackView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0q-rM-cla" customClass="EdgeInsetLabel" customModule="master_detail_simple" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0q-rM-cla" customClass="EdgeInsetLabel" customModule="trip_countdown_2" customModuleProvider="target">
                                                     <rect key="frame" x="272" y="11" width="88" height="88"/>
                                                     <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="0.70007491440000003" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
@@ -139,11 +139,80 @@
                     <navigationItem key="navigationItem" title="Your Trips" id="wSg-v5-zAl"/>
                     <connections>
                         <outlet property="tripTable" destination="pp3-NB-veT" id="1wM-yd-URd"/>
+                        <segue destination="zTA-Lm-OH7" kind="show" identifier="DetailVC" id="gHm-Wf-xO3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-39.200000000000003" y="133.5832083958021"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="roN-ag-Tv5">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="zTA-Lm-OH7" customClass="DetailVC" customModule="trip_countdown_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pf4-fq-euv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dclship" translatesAutoresizingMaskIntoConstraints="NO" id="QGm-yg-88S">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyb-jA-ej0" customClass="EdgeInsetLabel" customModule="trip_countdown_2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="32" width="343" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STR-qm-q0S" customClass="EdgeInsetLabel" customModule="trip_countdown_2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="92" width="343" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7YS-iA-CET" customClass="EdgeInsetLabel" customModule="trip_countdown_2" customModuleProvider="target">
+                                <rect key="frame" x="81.5" y="220" width="213.5" height="164"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="120"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days to go!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luE-vj-r7J" customClass="EdgeInsetLabel" customModule="trip_countdown_2" customModuleProvider="target">
+                                <rect key="frame" x="123.5" y="392" width="129.5" height="33"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="24"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iyb-jA-ej0" firstAttribute="top" secondItem="qaO-Cn-nTt" secondAttribute="top" constant="32" id="3CK-is-D7g"/>
+                            <constraint firstItem="QGm-yg-88S" firstAttribute="bottom" secondItem="qaO-Cn-nTt" secondAttribute="bottom" id="BHO-5O-HDU"/>
+                            <constraint firstItem="qaO-Cn-nTt" firstAttribute="trailing" secondItem="iyb-jA-ej0" secondAttribute="trailing" constant="16" id="FeT-3x-Cv9"/>
+                            <constraint firstItem="STR-qm-q0S" firstAttribute="top" secondItem="iyb-jA-ej0" secondAttribute="bottom" constant="16" id="LLw-zX-e75"/>
+                            <constraint firstItem="7YS-iA-CET" firstAttribute="centerY" secondItem="pf4-fq-euv" secondAttribute="centerY" id="LfH-Jw-QcL"/>
+                            <constraint firstItem="luE-vj-r7J" firstAttribute="centerX" secondItem="pf4-fq-euv" secondAttribute="centerX" id="LmF-gQ-vIk"/>
+                            <constraint firstItem="qaO-Cn-nTt" firstAttribute="trailing" secondItem="STR-qm-q0S" secondAttribute="trailing" constant="16" id="UNP-8x-nWi"/>
+                            <constraint firstItem="QGm-yg-88S" firstAttribute="leading" secondItem="qaO-Cn-nTt" secondAttribute="leading" id="XSo-OC-001"/>
+                            <constraint firstItem="STR-qm-q0S" firstAttribute="leading" secondItem="qaO-Cn-nTt" secondAttribute="leading" constant="16" id="bUP-1D-eFb"/>
+                            <constraint firstItem="QGm-yg-88S" firstAttribute="top" secondItem="qaO-Cn-nTt" secondAttribute="top" id="gDr-pi-oh0"/>
+                            <constraint firstItem="iyb-jA-ej0" firstAttribute="leading" secondItem="qaO-Cn-nTt" secondAttribute="leading" constant="16" id="iQz-d8-e3f"/>
+                            <constraint firstItem="7YS-iA-CET" firstAttribute="centerX" secondItem="pf4-fq-euv" secondAttribute="centerX" id="jTG-TI-dTz"/>
+                            <constraint firstItem="QGm-yg-88S" firstAttribute="trailing" secondItem="qaO-Cn-nTt" secondAttribute="trailing" id="u0O-b9-py8"/>
+                            <constraint firstItem="luE-vj-r7J" firstAttribute="top" secondItem="7YS-iA-CET" secondAttribute="bottom" constant="8" id="um4-D3-bNy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qaO-Cn-nTt"/>
+                    </view>
+                    <connections>
+                        <outlet property="countdownLbl" destination="7YS-iA-CET" id="al3-sk-Ti9"/>
+                        <outlet property="dateLbl" destination="STR-qm-q0S" id="7Fj-Wq-Nbl"/>
+                        <outlet property="titleLbl" destination="iyb-jA-ej0" id="P1b-Cd-Fhb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7hH-mB-isy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741.60000000000002" y="127.28635682158921"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UuE-bE-NTK">
@@ -169,6 +238,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dcl-fallback-image" width="2047" height="1152"/>
+        <image name="dcl-fallback-image" width="925" height="1150"/>
+        <image name="dclship" width="1080" height="720"/>
     </resources>
 </document>

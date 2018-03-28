@@ -16,6 +16,7 @@
 		4D7A9420206AE0D000F12BC5 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A941F206AE0D000F12BC5 /* Trip.swift */; };
 		4D7A9422206AE18D00F12BC5 /* TripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A9421206AE18D00F12BC5 /* TripCell.swift */; };
 		4D7A9426206BEB5000F12BC5 /* EdgeInsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A9425206BEB5000F12BC5 /* EdgeInsetLabel.swift */; };
+		4D7A942A206C16DB00F12BC5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7A9429206C16DB00F12BC5 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4D7A941F206AE0D000F12BC5 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		4D7A9421206AE18D00F12BC5 /* TripCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCell.swift; sourceTree = "<group>"; };
 		4D7A9425206BEB5000F12BC5 /* EdgeInsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeInsetLabel.swift; sourceTree = "<group>"; };
+		4D7A9429206C16DB00F12BC5 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				4D7A9409206AD7E900F12BC5 /* TripListVC.swift */,
+				4D7A9429206C16DB00F12BC5 /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				4D7A940A206AD7E900F12BC5 /* TripListVC.swift in Sources */,
 				4D7A9408206AD7E900F12BC5 /* AppDelegate.swift in Sources */,
 				4D7A9422206AE18D00F12BC5 /* TripCell.swift in Sources */,
+				4D7A942A206C16DB00F12BC5 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UVW89GGJ4;
-				INFOPLIST_FILE = "master-detail-simple/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/trip-countdown-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pearce.master-detail-simple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UVW89GGJ4;
-				INFOPLIST_FILE = "master-detail-simple/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/trip-countdown-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pearce.master-detail-simple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
