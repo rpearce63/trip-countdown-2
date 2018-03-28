@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:master-detail-simple.xcodeproj">
+      location = "self:/Users/crzs/dev/ios/master-detail-simple/trip-countdown-2.xcodeproj">
    </FileRef>
 </Workspace>

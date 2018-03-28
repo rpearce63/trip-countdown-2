@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D7A9404206AD7E900F12BC5 /* master-detail-simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "master-detail-simple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7A9404206AD7E900F12BC5 /* trip-countdown-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trip-countdown-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7A9407206AD7E900F12BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D7A9409206AD7E900F12BC5 /* TripListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListVC.swift; sourceTree = "<group>"; };
 		4D7A940C206AD7E900F12BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		4D7A93FB206AD7E900F12BC5 = {
 			isa = PBXGroup;
 			children = (
-				4D7A9406206AD7E900F12BC5 /* master-detail-simple */,
+				4D7A9406206AD7E900F12BC5 /* trip-countdown-2 */,
 				4D7A9405206AD7E900F12BC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		4D7A9405206AD7E900F12BC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D7A9404206AD7E900F12BC5 /* master-detail-simple.app */,
+				4D7A9404206AD7E900F12BC5 /* trip-countdown-2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D7A9406206AD7E900F12BC5 /* master-detail-simple */ = {
+		4D7A9406206AD7E900F12BC5 /* trip-countdown-2 */ = {
 			isa = PBXGroup;
 			children = (
 				4D7A941C206AD92C00F12BC5 /* Services */,
@@ -72,7 +72,7 @@
 				4D7A9410206AD7E900F12BC5 /* LaunchScreen.storyboard */,
 				4D7A9413206AD7E900F12BC5 /* Info.plist */,
 			);
-			path = "master-detail-simple";
+			path = "trip-countdown-2";
 			sourceTree = "<group>";
 		};
 		4D7A9419206AD91800F12BC5 /* Model */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D7A9403206AD7E900F12BC5 /* master-detail-simple */ = {
+		4D7A9403206AD7E900F12BC5 /* trip-countdown-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D7A9416206AD7E900F12BC5 /* Build configuration list for PBXNativeTarget "master-detail-simple" */;
+			buildConfigurationList = 4D7A9416206AD7E900F12BC5 /* Build configuration list for PBXNativeTarget "trip-countdown-2" */;
 			buildPhases = (
 				4D7A9400206AD7E900F12BC5 /* Sources */,
 				4D7A9401206AD7E900F12BC5 /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = "master-detail-simple";
+			name = "trip-countdown-2";
 			productName = "master-detail-simple";
-			productReference = 4D7A9404206AD7E900F12BC5 /* master-detail-simple.app */;
+			productReference = 4D7A9404206AD7E900F12BC5 /* trip-countdown-2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D7A93FF206AD7E900F12BC5 /* Build configuration list for PBXProject "master-detail-simple" */;
+			buildConfigurationList = 4D7A93FF206AD7E900F12BC5 /* Build configuration list for PBXProject "trip-countdown-2" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D7A9403206AD7E900F12BC5 /* master-detail-simple */,
+				4D7A9403206AD7E900F12BC5 /* trip-countdown-2 */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D7A93FF206AD7E900F12BC5 /* Build configuration list for PBXProject "master-detail-simple" */ = {
+		4D7A93FF206AD7E900F12BC5 /* Build configuration list for PBXProject "trip-countdown-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D7A9414206AD7E900F12BC5 /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D7A9416206AD7E900F12BC5 /* Build configuration list for PBXNativeTarget "master-detail-simple" */ = {
+		4D7A9416206AD7E900F12BC5 /* Build configuration list for PBXNativeTarget "trip-countdown-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D7A9417206AD7E900F12BC5 /* Debug */,
